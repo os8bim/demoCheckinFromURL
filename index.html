@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><label for="txt-project-name">Nome progetto</label></td>
+                <td><input type="text" id="txt-project-name" /></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="txt-project-name">Url file</label></td>
+                <td><input type="text" id="txt-project-filepath" /></td>
+                <td><span>File url</span></td>
+            </tr>
+            <tr>
+                <td><label for="txt-project-schema">IFC schema</label></td>
+                <td><input type="text" id="txt-project-schema" /></td>
+                <td><span>ifc2x3tc1 o ifc4</span></td>
+            </tr>
+            <tr>
+                <td><label for="txt-project-comment">Comment</label></td>
+                <td><input type="text" id="txt-project-comment" /></td>
+                <td><span></span></td>
+            </tr>
+        </table>
+
+        <button id="btn-load" disabled>Load!</button>
+
+        <script src="./bimserverapi/bimserverapi.umd.js"></script>
+        <script src="./main.js" type="module"></script>
+    </body>
+</html>
